@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.table, .table th, .table td {
+  border: 1px solid black;
+}
+
+.table th, .table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.table th {
+  background-color: #ddd;
+}
+
+.button {
+  padding: 8px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+   margin-right: 10px;
+}
+
+.button.edit {
+  background-color: green;
+  color: white;
+}
+
+.button.delete {
+  background-color: red;
+  color: white;
+}
+
+.button.add, .button.update {
+  background-color: blue;
+  color: white;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid black;
+  border-radius: 9px;
+}
